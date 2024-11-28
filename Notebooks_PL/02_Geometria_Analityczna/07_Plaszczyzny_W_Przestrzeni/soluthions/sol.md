@@ -4,9 +4,11 @@ Dane są punkty \( A(1, 2, 3) \), \( B(3, 4, 5) \) oraz \( C(2, 1, 4) \). Chcemy
 
 ## 1. Wyznaczenie wektorów
 Na podstawie punktów obliczamy dwa wektory:
+
 $$
 \vec{AB} = B - A = (3-1, 4-2, 5-3) = (2, 2, 2)
 $$
+
 $$
 \vec{AC} = C - A = (2-1, 1-2, 4-3) = (1, -1, 1)
 $$
