@@ -297,7 +297,7 @@ $$
 
 ## Sprawdzenie drugiej pochodnej:
 
-Dana funkcja: \( f(x) = \cos(x) \). Należy sprawdzić, czy \( f''(x) = -f(x) \).
+Dana funkcja: $$ f(x) = \cos(x) $$. Należy sprawdzić, czy $$ f''(x) = -f(x)$$
 
 
 
@@ -347,19 +347,19 @@ $$
 
 ### Krok 1: Sprawdzanie formy
 
-Gdy \( x \to 0 \):
+Gdy  $$ x \to 0 $$:
 
 - \( \sin(x) \to 0 \),
 - \( x \to 0 \).
 
-Wyrażenie ma formę \( \frac{0}{0} \), dlatego można zastosować **regułę de L'Hospitala**.
+Wyrażenie ma formę $$ \frac{0}{0} $$, dlatego można zastosować **regułę de L'Hospitala**.
 
 
 ### Krok 2: Stosujemy regułę de L'Hospitala
 
 Reguła de L'Hospitala mówi:
 
-Jeśli granica wyrażenia ma formę \( \frac{0}{0} \) lub \( \frac{\pm\infty}{\pm\infty} \), to:
+Jeśli granica wyrażenia ma formę $$ \frac{0}{0} $$ lub $$ \frac{\pm\infty}{\pm\infty} $$, to:
 
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)},
@@ -426,7 +426,7 @@ $$
 
 ---
 
-## Rozwiązanie zadania po polsku
+## Rozwiązanie zadania #2
 
 Obliczamy granicę:
 
@@ -440,12 +440,14 @@ do tego celu zastosujemy **twierdzenie de L'Hospitala**.
 
 ### Krok 1: Sprawdzanie formy
 
-Gdy \( x \to \infty \):
+Gdy $$ x \to \infty $$:
 
-- \( \ln(x) \to \infty \),
-- \( x \to \infty \).
+- $$ \ln(x) \to \infty $$
 
-Wyrażenie ma formę \( \frac{\infty}{\infty} \), dlatego możemy zastosować **twierdzenie de L'Hospitala**.
+- $$ x \to \infty .$$
+
+
+Wyrażenie ma formę $$ \frac{\infty}{\infty} $$, dlatego możemy zastosować **twierdzenie de L'Hospitala**.
 
 
 
@@ -463,18 +465,18 @@ gdzie \( f(x) \) i \( g(x) \) to funkcje, a \( f'(x), g'(x) \) to ich pochodne.
 
 W naszym przypadku:
 
-- \( f(x) = \ln(x) \),
-- \( g(x) = x \).
+- $ f(x) = \ln(x) $,
+- $ g(x) = x $.
 
 Obliczamy ich pochodne:
 
-1. Pochodna licznika \( f(x) = \ln(x) \):
+1. Pochodna licznika $ f(x) = \ln(x) $:
 
    $$
    f'(x) = \frac{1}{x}.
    $$
 
-2. Pochodna mianownika \( g(x) = x \):
+2. Pochodna mianownika $ g(x) = x $:
 
    $$
    g'(x) = 1.
@@ -496,7 +498,7 @@ $$
 \lim_{x \to \infty} \frac{1}{x}.
 $$
 
-Gdy \( x \to \infty \), wyrażenie \( \frac{1}{x} \to 0 \).
+Gdy $ x \to \infty $, wyrażenie $ \frac{1}{x} \to 0 $.
 
 
 
@@ -509,7 +511,7 @@ $$
 $$
 
 
-## Rozwiązanie zadania z użyciem reguły de L'Hospitala
+## Rozwiązanie zadania #3
 
 Obliczamy granicę:
 
@@ -520,39 +522,39 @@ $$
 
 ### Krok 1: Sprawdzanie formy
 
-Gdy \( x \to \infty \):
+Gdy $ x \to \infty $:
 
-- \( \exp(x) \to \infty \),
-- \( x \to \infty \).
+- $ \exp(x) \to \infty $,
+- $ x \to \infty $.
 
-Wyrażenie przyjmuje formę \( \frac{\infty}{\infty} \), dlatego można zastosować **regułę de L'Hospitala**.
+Wyrażenie przyjmuje formę $ \frac{\infty}{\infty} $, dlatego można zastosować **regułę de L'Hospitala**.
 
 
 
 ### Krok 2: Stosowanie reguły de L'Hospitala
 
-**Reguła de L'Hospitala** mówi, że jeśli wyrażenie przyjmuje formę \( \frac{\infty}{\infty} \) lub \( \frac{0}{0} \), to:
+**Reguła de L'Hospitala** mówi, że jeśli wyrażenie przyjmuje formę $ \frac{\infty}{\infty} $ lub $ \frac{0}{0} $, to:
 
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)},
 $$
 
-gdzie \( f(x) \) i \( g(x) \) to funkcje, a \( f'(x) \), \( g'(x) \) są ich pochodnymi.
+gdzie $ f(x) $ i $ g(x) $ to funkcje, a $ f'(x) $, $ g'(x) $ są ich pochodnymi.
 
 W naszym przypadku:
 
-- \( f(x) = \exp(x) \),
-- \( g(x) = x \).
+- $ f(x) = \exp(x) $,
+- $ g(x) = x $.
 
 Obliczamy pochodne:
 
-1. Pochodna licznika \( f(x) = \exp(x) \):
+1. Pochodna licznika $ f(x) = \exp(x) $:
 
    $$
    f'(x) = \exp(x).
    $$
 
-2. Pochodna mianownika \( g(x) = x \):
+2. Pochodna mianownika $ g(x) = x $:
 
    $$
    g'(x) = 1.
@@ -593,23 +595,23 @@ x(t) = 3t^2 - 6t + 1.
 $$  
 
 Należy znaleźć:  
-1. **Prędkość cząstki**, \( V(t) = x'(t) \), czyli pierwszą pochodną funkcji \( x(t) \),  
-2. **Przyspieszenie cząstki**, \( a(t) = V'(t) = x''(t) \), czyli drugą pochodną funkcji \( x(t) \),  
-   oraz obliczyć te wartości w chwili \( t = 2 \).
+1. **Prędkość cząstki**, $ V(t) = x'(t) $, czyli pierwszą pochodną funkcji $ x(t) $,  
+2. **Przyspieszenie cząstki**, $ a(t) = V'(t) = x''(t) $, czyli drugą pochodną funkcji $ x(t) $,  
+   oraz obliczyć te wartości w chwili $ t = 2 $.
 
 
 
 ### Rozwiązanie:
 
-#### 1. Znajdźmy prędkość \( V(t) = x'(t) \)
+#### 1. Znajdźmy prędkość $ V(t) = x'(t) $
 
-Najpierw znajdźmy pierwszą pochodną funkcji \( x(t) \):
+Najpierw znajdźmy pierwszą pochodną funkcji $ x(t) $:
 
 $$
 x(t) = 3t^2 - 6t + 1.
 $$
 
-Pochodna względem zmiennej \( t \):
+Pochodna względem zmiennej $ t $:
 
 $$
 x'(t) = \frac{d}{dt}[3t^2 - 6t + 1].
@@ -627,7 +629,7 @@ $$
 V(t) = x'(t) = 6t - 6.
 $$
 
-Teraz obliczamy \( V(2) \):
+Teraz obliczamy $ V(2) $:
 
 $$
 V(2) = 6(2) - 6 = 12 - 6 = 6.
@@ -635,15 +637,15 @@ $$
 
 
 
-#### 2. Znajdźmy przyspieszenie \( a(t) = x''(t) \)
+#### 2. Znajdźmy przyspieszenie $ a(t) = x''(t) $
 
-Teraz znajdźmy drugą pochodną \( x''(t) \):
+Teraz znajdźmy drugą pochodną $ x''(t) $:
 
 $$
 x''(t) = \frac{d}{dt}[x'(t)] = \frac{d}{dt}[6t - 6].
 $$
 
-Pochodna względem \( t \):
+Pochodna względem $t $:
 
 $$
 \frac{d}{dt}[6t] = 6, \quad \frac{d}{dt}[-6] = 0.
@@ -655,9 +657,9 @@ $$
 x''(t) = 6.
 $$
 
-Oznacza to, że przyspieszenie \( a(t) \) nie zależy od czasu i zawsze wynosi \( 6 \).
+Oznacza to, że przyspieszenie $ a(t) $ nie zależy od czasu i zawsze wynosi $ 6 $.
 
-Teraz obliczamy \( a(2) \):
+Teraz obliczamy $ a(2) $:
 
 $$
 a(2) = 6.
@@ -667,12 +669,12 @@ $$
 
 ### Odpowiedź:
 
-1. Prędkość w chwili \( t = 2 \):  
+1. Prędkość w chwili $ t = 2 $:  
    $$
    V(2) = 6
    $$
 
-2. Przyspieszenie w chwili \( t = 2 \):  
+2. Przyspieszenie w chwili $ t = 2 $:  
    $$
    a(2) = 6
    $$
