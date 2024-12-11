@@ -22,13 +22,13 @@ $$
 
 ### Rozwiązanie krok po kroku
 
-1. **Zidentyfikuj stopnie licznika i mianownika:**
+1. **Zidentyfikować stopnie licznika i mianownika:**
    - Licznik: \( x^3 + 2x^2 \) (stopień = 3),
    - Mianownik: \( x^4 - 3x^3 \) (stopień = 4).
 
    Ponieważ stopień licznika jest mniejszy niż stopień mianownika, granica powinna zmierzać do 0.
 
-2. **Podziel licznik i mianownik przez najwyższą potęgę \( x \) w mianowniku (\( x^4 \)):**
+2. **Podzielić licznik i mianownik przez najwyższą potęgę \( x \) w mianowniku (\( x^4 \)):**
 
    Przekształć wyrażenie:
 
@@ -42,12 +42,12 @@ $$
    \frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}.
    $$
 
-3. **Oblicz granicę dla \( x \to \infty \):**
+3. **Obliczyć granicę dla $ x \to \infty $:**
 
-   Gdy \( x \to \infty \):
-   - \( \frac{1}{x} \to 0 \),
-   - \( \frac{2}{x^2} \to 0 \),
-   - \( \frac{3}{x} \to 0 \).
+   Gdy $ x \to \infty $:
+   - $ \frac{1}{x} \to 0 $,
+   - $ \frac{2}{x^2} \to 0 $,
+   - $ \frac{3}{x} \to 0 $.
 
    Podstawiając te wartości do wyrażenia:
 
@@ -73,8 +73,8 @@ $$
 ### Rozwiązanie
 
 #### Krok 1: Analiza zachowania licznika i mianownika
-- Licznik \(\sin(3x)\) dąży do \(\sin(0) = 0\), gdy \(x \to 0\).
-- Mianownik \(2x + 1\) dąży do \(1\), gdy \(x \to 0\).
+- Licznik $\sin(3x)$ dąży do $\sin(0) = 0$, gdy $x \to 0$.
+- Mianownik $2x + 1$ dąży do $1$, gdy $x \to 0$.
 
 Zatem wyrażenie przyjmuje postać:
 $$
@@ -94,10 +94,10 @@ $$
 
 
 ***№3***
-### Znajdź asymptoty funkcji \( f(x) = \frac{x^2 - 1}{x^2 + 1} \)
+### Znajdź asymptoty funkcji $ f(x) = \frac{x^2 - 1}{x^2 + 1} $
 
 #### 1. Asymptoty poziome
-Asymptoty poziome ustalamy analizując granicę funkcji, gdy \( x \to \pm \infty \).
+Asymptoty poziome ustalamy analizując granicę funkcji, gdy $ x \to \pm \infty $.
 
 Dla funkcji:
 $$
@@ -108,7 +108,7 @@ $$
 f(x) = \frac{1 - \frac{1}{x^2}}{1 + \frac{1}{x^2}}.
 $$
 
-Gdy \( x \to \pm \infty \), człony z \( \frac{1}{x^2} \to 0 \). Dlatego:
+Gdy $ x \to \pm \infty $, człony z $ \frac{1}{x^2} \to 0 $. Dlatego:
 $$
 \lim_{x \to \pm \infty} f(x) = \frac{1 - 0}{1 + 0} = 1.
 $$
@@ -123,7 +123,7 @@ $$
 #### 2. Asymptoty pionowe
 Asymptoty pionowe występują tam, gdzie mianownik jest równy zero, a licznik nie jest równy zero.
 
-Rozważmy mianownik \( x^2 + 1 = 0 \):
+Rozważmy mianownik $ x^2 + 1 = 0 $:
 $$
 x^2 = -1.
 $$
@@ -138,7 +138,7 @@ Ponieważ stopień licznika jest równy stopniowi mianownika, asymptoty skośne 
 
 
 ### Odpowiedź:
-1. **Pozioma asymptota:** \( y = 1 \).  
+1. **Pozioma asymptota:** $ y = 1 $.  
 2. **Asymptoty pionowe:** brak.  
 3. **Asymptoty skośne:** brak.
 
