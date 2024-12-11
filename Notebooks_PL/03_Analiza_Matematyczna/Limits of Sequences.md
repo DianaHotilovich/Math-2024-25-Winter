@@ -122,7 +122,7 @@ z wykorzystaniem **twierdzenia ściskania (Squeeze Theorem)**.
 
 ### 1. Własności funkcji \( \sin(n) \)
 
-Funkcja \( \sin(n) \) jest ograniczona w całej swojej dziedzinie za pomocą następującej nierówności:  
+Funkcja $ \sin(n) $ jest ograniczona w całej swojej dziedzinie za pomocą następującej nierówności:  
 
 $$
 -1 \leq \sin(n) \leq 1
@@ -134,13 +134,13 @@ Ta nierówność będzie podstawą do zastosowania twierdzenia ściskania.
 
 ### 2. Ustalanie nierówności
 
-Teraz z własności \( -1 \leq \sin(n) \leq 1 \) uzyskujemy:  
+Teraz z własności $ -1 \leq \sin(n) \leq 1 $ uzyskujemy:  
 
 $$
 -1 \leq \sin(n) \leq 1
 $$
 
-Dzielimy teraz wszystkie człony przez \( n > 0 \):
+Dzielimy teraz wszystkie człony przez $ n > 0 $:
 
 $$
 -\frac{1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
@@ -200,15 +200,15 @@ Find the limit of the sequence:
 
 ## Rozwiązanie:
 
-1. **Krok 1: Przypomnijmy definicję liczby matematycznej \( e \):**
+1. **Krok 1: Przypomnijmy definicję liczby matematycznej $ e $:**
 
-   Liczba \( e \) (przybliżona wartość to \( 2,718 \)) jest definiowana za pomocą następującego granicy:
+   Liczba \( e \) (przybliżona wartość to \( 2,718 \)) jest definiowana za pomocą następującej granicy:
 
    $$
    e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n
    $$
 
-2. **Krok 2: Porównanie zadania z definicją liczby \( e \):**
+2. **Krok 2: Porównanie zadania z definicją liczby $ e $:**
 
    Nasze zadanie jest przedstawione w następującej formie:
 
@@ -216,7 +216,7 @@ Find the limit of the sequence:
    a_n = \left(1 + \frac{1}{n}\right)^n
    $$
 
-   To wyrażenie jest dokładnie równoważne definicji liczby \( e \).
+   To wyrażenie jest dokładnie równoważne definicji liczby $ e $.
 
 3. **Krok 3: Wniosek:**
 
