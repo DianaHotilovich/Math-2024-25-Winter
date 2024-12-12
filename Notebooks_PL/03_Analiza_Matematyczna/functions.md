@@ -46,9 +46,7 @@ $$
 
 ### Odpowiedź:
 
-$$
-f^{-1} = (7, 1), (7, 2), (11, 3).
-$$
+to nie jest funkcją
 
 6. We have function $f(x)= x-1$. Give inverse function $f^{-1}$. Show both functions on the same Geogebra notebook.
 
