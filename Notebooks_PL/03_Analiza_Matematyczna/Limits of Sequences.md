@@ -24,11 +24,11 @@ $\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n}$.
 
 ### Krok 1: Podzielmy licznik i mianownik przez $n^2$
 
-Dzielimy licznik i mianownik przez $n^2$:
+Dzielimy licznik i mianownik przez $n^2$, потому что мы выбираем наибольшую степень из знаменателя и делим на нее:
 
 $\frac{n^2 + 3n}{2n^2 - 2n} = \frac{\frac{n^2}{n^2} + \frac{3n}{n^2}}{\frac{2n^2}{n^2} - \frac{2n}{n^2}}$.
 
-Obliczamy poszczególne elementy:
+Obliczamy poszczególne elementy, теперь надо посчитать все результаты:
 
 $\frac{n^2}{n^2} = 1, \quad \frac{3n}{n^2} = \frac{3}{n}, \quad \frac{2n^2}{n^2} = 2, \quad \frac{2n}{n^2} = \frac{2}{n}$.
 
@@ -40,7 +40,7 @@ $\frac{n^2 + 3n}{2n^2 - 2n} = \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}}$.
 
 ### Krok 2: Obliczamy granicę, gdy $n \to \infty$
 
-Analizujemy granicę, gdy $n \to \infty$:
+Analizujemy granicę, gdy $n \to \infty$, когда стремится к бесконечности, тогда можем подставить 0:
 
 - $\frac{3}{n} \to 0$,
 - $\frac{2}{n} \to 0$.
