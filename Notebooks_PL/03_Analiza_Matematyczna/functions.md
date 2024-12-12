@@ -37,17 +37,17 @@ Dana jest funkcja $ f = (1, 7), (2, 9), (3, 11) $.
 Funkcja odwrotna $ f^{-1} $ uzyskiwana jest przez zamianę zmiennych $x$ i $y$:
 
 $$
-f^{-1} = \{(7, 1), (9, 2), (11, 3)\}.
+f^{-1} = (7, 1), (9, 2), (11, 3).
 $$
 
 
 
-5. We have function $f=\{(1,7), (2,7), (3,11)\}$. Give inverse function $f^{-1}$.
+5. We have function $f=(1,7), (2,7), (3,11)$. Give inverse function $f^{-1}$.
 
 ### Odpowiedź:
 
 $$
-f^{-1} = \{(7, 1), (7, 2), (11, 3)\}.
+f^{-1} = (7, 1), (7, 2), (11, 3).
 $$
 
 6. We have function $f(x)= x-1$. Give inverse function $f^{-1}$. Show both functions on the same Geogebra notebook.
