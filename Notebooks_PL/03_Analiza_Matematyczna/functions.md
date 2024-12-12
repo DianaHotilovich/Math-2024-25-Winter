@@ -27,10 +27,10 @@ and visualize functions in a single Geogebra notebook.
 Obie kompozycje $ f(g(x)) $ i $ g(f(x)) $ są równe $ x $. Oznacza to, że funkcje $ f(x) = e^x $ i $ g(x) = \ln(x) $ są wzajemnie odwrotne wobec siebie.
 
 
-4. We have function $f=\{(1,7), (2,9), (3,11)\}$. Give inverse function $f^{-1}$.
+4. We have function $f=(1,7), (2,9), (3,11)$. Give inverse function $f^{-1}$.
   ## Zadanie: Znalezienie funkcji odwrotnej
 
-Dana jest funkcja $ f = \{(1, 7), (2, 9), (3, 11)\} $.
+Dana jest funkcja $ f = (1, 7), (2, 9), (3, 11) $.
 
 ### Rozwiązanie
 
