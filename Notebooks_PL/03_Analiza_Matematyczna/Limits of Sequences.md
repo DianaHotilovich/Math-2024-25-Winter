@@ -22,9 +22,9 @@ $\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n}$.
 
 
 
-### Krok 1: Podzielmy licznik i mianownik przez $n^2$
+### Podzielimy licznik i mianownik przez $n^2$
 
-Dzielimy licznik i mianownik przez $n^2$, потому что мы выбираем наибольшую степень из знаменателя и делим на нее:
+Dzielimy licznik i mianownik przez $n^2$, потому что мы выбираем наибольшую степень из знаменателя и делим на нее. Потому что при больших значениях 𝑛 только наибольшая степень имеет значение. Меньшие степени (и константы) становятся настолько маленькими, что их влияние исчезает:
 
 $\frac{n^2 + 3n}{2n^2 - 2n} = \frac{\frac{n^2}{n^2} + \frac{3n}{n^2}}{\frac{2n^2}{n^2} - \frac{2n}{n^2}}$.
 
@@ -38,9 +38,11 @@ $\frac{n^2 + 3n}{2n^2 - 2n} = \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}}$.
 
 
 
-### Krok 2: Obliczamy granicę, gdy $n \to \infty$
+### Obliczamy granicę, gdy $n \to \infty$
 
-Analizujemy granicę, gdy $n \to \infty$, когда стремится к бесконечности, тогда можем подставить 0:
+Analizujemy granicę, gdy $n \to \infty$, когда стремится к бесконечности, тогда можем подставить 0, потому что когда у нас 
+n→∞, числитель 𝑘 ничтожно мал по сравнению с бесконечно большим знаменателем (𝑛). Поэтому значение стремится к нулю.
+
 
 - $\frac{3}{n} \to 0$,
 - $\frac{2}{n} \to 0$.
@@ -62,15 +64,15 @@ $\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} = \frac{1}{2}$.
 
 ### Rozwiązanie:
 
-1. **Rozwiń licznik:**
+1. **Нужно открыть скобки:**
 
    Licznik można rozwinąć za pomocą wzoru na sześcian sumy:
 
-   $$ (2n+3)^3 = 8n^3 + 36n^2 + 54n + 27 $$
+   $$ (2n+3)^3 = a^3 + 3a^2b+3ab^2+b^3 = 8n^3 + 36n^2 + 54n + 27 $$
 
-2. **Rozważmy ułamek:**
+2. **Rozwazujemy wynik:**
 
-   Teraz nasz ułamek wygląda tak:
+   Teraz nasz wynik wygląda tak:
 
    $$ \frac{8n^3 + 36n^2 + 54n + 27}{n^3 - 1} $$
 
@@ -120,7 +122,7 @@ z wykorzystaniem **twierdzenia ściskania (Squeeze Theorem)**.
 
 
 
-### 1. Własności funkcji \( \sin(n) \)
+### 1. Własności funkcji $ \sin(n) $
 
 Funkcja $ \sin(n) $ jest ograniczona w całej swojej dziedzinie za pomocą następującej nierówności:  
 
@@ -140,7 +142,7 @@ $$
 -1 \leq \sin(n) \leq 1
 $$
 
-Dzielimy teraz wszystkie człony przez $ n > 0 $:
+Dzielimy teraz wszystkie człony przez $ n > 0 $, потому что таким образом мы можем привести подобный вид к нашему первоначальному уравнению:
 
 $$
 -\frac{1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
@@ -150,21 +152,21 @@ $$
 
 ### 3. Zastosowanie twierdzenia ściskania
 
-Teraz mamy nierówność:
+Teraz mamy nierówność, а так как у нас предел стремится к бесконечности, мы подставляем ноль A ponieważ nasza granica dąży do nieskończoności, podstawiamy zero:
 
 $$
 -\frac{1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
 $$
 
-Obliczamy teraz granice krańców dla \( n \to \infty \):
+Obliczamy teraz granice krańców dla $ n \to \infty $:
 
-- **Lewy kraniec:**  
+- **Lewy:**  
 
 $$
 \lim_{n \to \infty} -\frac{1}{n} = 0
 $$
 
-- **Prawy kraniec:**  
+- **Prawy:**  
 
 $$
 \lim_{n \to \infty} \frac{1}{n} = 0
@@ -174,7 +176,7 @@ $$
 
 ### 4. Wniosek
 
-Z twierdzenia ściskania wynika, że jeśli funkcja jest ściskana między dwiema innymi funkcjami, które zbliżają się do tego samego granicy, to sama funkcja również musi zbliżać się do tego samego wyniku.  
+Z twierdzenia ściskania wynika, że jeśli funkcja jest ściskana między dwiema innymi funkcjami, które zbliżają się do tego samego granicy, to sama funkcja również musi zbliżać się do tego samego wyniku.  Так как мы польземя правилом сжатой функции, тогда наше значение, занимающее среднее положение, будет равно тому же результату.
 
 W związku z tym:  
 
@@ -200,7 +202,7 @@ Find the limit of the sequence:
 
 ## Rozwiązanie:
 
-1. **Krok 1: Przypomnijmy definicję liczby matematycznej $ e $:**
+1. **$ e $:**
 
    Liczba \( e \) (przybliżona wartość to \( 2,718 \)) jest definiowana za pomocą następującej granicy:
 
@@ -208,7 +210,7 @@ Find the limit of the sequence:
    e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n
    $$
 
-2. **Krok 2: Porównanie zadania z definicją liczby $ e $:**
+2. **Krok 2: Porównanie $ e: $**
 
    Nasze zadanie jest przedstawione w następującej formie:
 
