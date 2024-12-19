@@ -20,15 +20,15 @@ $$
 \lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3}
 $$
 
-### Rozwiązanie krok po kroku
+### Rozwiązanie 
 
 1. **Zidentyfikować stopnie licznika i mianownika:**
-   - Licznik: \( x^3 + 2x^2 \) (stopień = 3),
-   - Mianownik: \( x^4 - 3x^3 \) (stopień = 4).
+   - Licznik: $ x^3 + 2x^2 $ (stopień = 3),
+   - Mianownik: $ x^4 - 3x^3 $ (stopień = 4).
 
    Ponieważ stopień licznika jest mniejszy niż stopień mianownika, granica powinna zmierzać do 0.
 
-2. **Podzielić licznik i mianownik przez najwyższą potęgę \( x \) w mianowniku (\( x^4 \)):**
+2. **Podzielić licznik i mianownik przez najwyższą potęgę $ x $ w mianowniku $ x^4 $:**
 
    Przekształć wyrażenie:
 
@@ -55,7 +55,7 @@ $$
    \lim_{x \to \infty} \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}} = \frac{0 + 0}{1 - 0} = 0.
    $$
 
-### Wniosek
+### Wynik
 
 Granica wynosi:
 
@@ -72,7 +72,7 @@ $$
 
 ### Rozwiązanie
 
-#### Krok 1: Analiza zachowania licznika i mianownika
+#### Analiza zachowania licznika i mianownika
 - Licznik $\sin(3x)$ dąży do $\sin(0) = 0$, gdy $x \to 0$.
 - Mianownik $2x + 1$ dąży do $1$, gdy $x \to 0$.
 
@@ -81,8 +81,9 @@ $$
 \frac{0}{1}.
 $$
 
-#### Krok 2: Podstawienie \(x = 0\)
-Podstawiając \(x = 0\):
+#### Podstawienie
+
+Podstawiając $x = 0$:
 $$
 \frac{\sin(3 \cdot 0)}{2 \cdot 0 + 1} = \frac{0}{1} = 0.
 $$
@@ -121,7 +122,7 @@ $$
 
 
 #### 2. Asymptoty pionowe
-Asymptoty pionowe występują tam, gdzie mianownik jest równy zero, a licznik nie jest równy zero.
+Asymptoty pionowe występują tam, gdzie mianownik jest równy zero, a licznik nie jest równy zero. Можем заметить, что при подставлении любого числа результатк не будет давать ноль, поэтому у нас не будет вертикальных асимптот
 
 Rozważmy mianownik $ x^2 + 1 = 0 $:
 $$
@@ -133,7 +134,8 @@ Nie istnieją żadne rozwiązania tego równania w zbiorze liczb rzeczywistych. 
 
 
 #### 3. Asymptoty skośne
-Ponieważ stopień licznika jest równy stopniowi mianownika, asymptoty skośne również **nie istnieją**.
+Ponieważ stopień licznika jest równy stopniowi mianownika, asymptoty skośne również **nie istnieją**. Это можно объяснить и другим способом, когда отдельно считаем k, потому что именно с помощью него будет понятно, есть ли у нас вертикальные асимптоты. Мы должны имеющееся выражение разделить на х, чтобы понять это. У нас в итоге получится $\frac{1}{x}$, а это значит, что в итоге выражение будет принимать вид $y = 0x + b$, что указывает на отсуствие вертикатикальных асимптот.
+Można to wyjaśnić w inny sposób, obliczając oddzielnie $k$, ponieważ to właśnie dzięki niemu można zrozumieć, czy mamy do czynienia z asymptotami pionowymi. Musimy podzielić istniejące wyrażenie przez x, aby to zrozumieć. Ostatecznie otrzymamy $\frac{1}{x}$, co oznacza, że wyrażenie przyjmie postać $y = 0x + b$, co wskazuje na brak asymptot pionowych.
 
 
 
@@ -177,7 +179,7 @@ $$
 Zatem możemy napisać:  
 
 $$
-|g(x)| = \left| \frac{\sin(x)}{x^2 + 1} \right| \leq \frac{1}{x^2 + 1}.
+|g(x)| = \frac{-1}{x^2 + 1} \leq \left| \frac{\sin(x)}{x^2 + 1} \right| \leq \frac{1}{x^2 + 1}.
 $$
 
 #### Obliczamy granicę:  
@@ -230,6 +232,7 @@ Asymptoty ukośne pojawiają się, jeśli stopień licznika jest wyższy niż st
 - Mianownik $x^2 + 1$ rośnie szybciej przy dużych wartościach $|x|$.
 
 W związku z tym, asymptoty ukośne również nie występują.
+Здесь применим то же самое, можем взять k и посчитать его, у нас выйдет $\frac{0}{1} = 0$
 
 
 
@@ -237,4 +240,4 @@ W związku z tym, asymptoty ukośne również nie występują.
 
 1. **Asymptota pozioma:** $y = 0$ (dla $x \to \pm \infty$).  
 2. **Asymptoty pionowe:** brak.  
-3. **Asymptoty ukośne:** brak.
+3. **Asymptoty skośne:** brak.
