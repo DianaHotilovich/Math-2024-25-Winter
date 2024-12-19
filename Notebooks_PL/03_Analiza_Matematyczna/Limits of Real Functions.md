@@ -224,7 +224,7 @@ Oznacza to, że mianownik **nigdy nie jest równy 0**, co oznacza brak asymptot 
 
 
 
-### 3. Asymptoty ukośne  
+### 3. Asymptoty skośne  
 
 Asymptoty ukośne pojawiają się, jeśli stopień licznika jest wyższy niż stopień mianownika. W naszym przypadku:  
 
