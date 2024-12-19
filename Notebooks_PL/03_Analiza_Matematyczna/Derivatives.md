@@ -236,7 +236,7 @@ $$ \frac{dy}{dx} = \frac{1}{\sqrt{2x+1}} $$
 Należy udowodnić, że:  
 
 $$
-\frac{d}{dx} (\ln(\sin(x))) = \cot(x)
+\frac{d}{dx} \ln(\sin(x)) = \cot(x)
 $$  
 
 ---
@@ -246,13 +246,13 @@ $$
 #### 1. Stosujemy regułę łańcuchową  
 Używamy reguły różniczkowania funkcji złożonych. Zgodnie z regułą łańcuchową:  
 
-Jeżeli \( y = \ln(f(x)) \), to  
+Jeżeli $ y = \ln(f(x)) $, to  
 
 $$
 \frac{dy}{dx} = \frac{1}{f(x)} \cdot \frac{d}{dx}[f(x)]
 $$  
 
-W naszym przypadku \( f(x) = \sin(x) \). Wtedy:  
+W naszym przypadku $ f(x) = \sin(x) $. Wtedy:  
 
 $$
 \frac{d}{dx} [\ln(\sin(x))] = \frac{1}{\sin(x)} \cdot \frac{d}{dx} [\sin(x)]
@@ -260,8 +260,8 @@ $$
 
 ---
 
-#### 2. Obliczamy pochodną funkcji \( \sin(x) \)  
-Pochodna funkcji \( \sin(x) \) względem \( x \) wynosi:  
+#### 2. Obliczamy pochodną funkcji $ \sin(x) $  
+Pochodna funkcji $ \sin(x) $ względem $ x $ wynosi:  
 
 $$
 \frac{d}{dx} [\sin(x)] = \cos(x)
@@ -289,19 +289,18 @@ $$
 W związku z tym:  
 
 $$
-\frac{d}{dx} (\ln(\sin(x))) = \cot(x)
+\frac{d}{dx} \ln(\sin(x)) = \cot(x)
 $$
 
 
 ***№3***
 
-## Sprawdzenie drugiej pochodnej:
-
-Dana funkcja: $$ f(x) = \cos(x) $$. Należy sprawdzić, czy $$ f''(x) = -f(x)$$
-
+Dana funkcja: $$ f(x) = \cos(x) $$
+ Należy sprawdzić, czy $$ f''(x) = -f(x)$$
 
 
-### Krok 1: Obliczamy pierwszą pochodną \( f'(x) \)
+
+### Obliczamy pierwszą pochodną $ f'(x) $
 
 Zgodnie z podstawowymi wzorami różniczkowania funkcji cosinus:
 
@@ -311,7 +310,7 @@ $$
 
 
 
-### Krok 2: Obliczamy drugą pochodną \( f''(x) \)
+### Obliczamy drugą pochodną  f''(x) 
 
 Teraz różniczkujemy pierwszą pochodną:
 
@@ -321,7 +320,7 @@ $$
 
 
 
-### Krok 3: Sprawdzanie równości
+### Sprawdzamy równości
 
 Zauważamy, że:
 
@@ -336,7 +335,7 @@ f''(x) = -\cos(x) = -f(x).
 $$
 
 ***№4***
-## Oblicz nieoznaczony granicę, stosując regułę de L'Hospitala
+## Obliczmy nieoznaczony granicę, stosując regułę de L'Hospitala
 
 Obliczmy granicę:
 
@@ -347,15 +346,15 @@ $$
 
 ### Krok 1: Sprawdzanie formy
 
-Gdy  $$ x \to 0 $$:
+Gdy  $$ x \to 0 $$
 
-- \( \sin(x) \to 0 \),
-- \( x \to 0 \).
+- $ \sin(x) \to 0 $,
+- $ x \to 0 $.
 
-Wyrażenie ma formę $$ \frac{0}{0} $$, dlatego można zastosować **regułę de L'Hospitala**.
+Wyrażenie ma formę $$ \frac{0}{0} $$ dlatego można zastosować **regułę de L'Hospitala**.
 
 
-### Krok 2: Stosujemy regułę de L'Hospitala
+### Stosujemy regułę de L'Hospitala
 
 Reguła de L'Hospitala mówi:
 
@@ -369,8 +368,8 @@ gdzie \( f(x) \) i \( g(x) \) to funkcje, a \( f'(x), g'(x) \) to ich pochodne.
 
 W naszym przypadku:
 
-- \( f(x) = \sin(x) \),
-- \( g(x) = x \).
+- $ f(x) = \sin(x) $,
+- $ g(x) = x $.
 
 Obliczamy pochodne:
 
@@ -394,7 +393,7 @@ $$
 
 
 
-### Krok 3: Obliczamy granicę
+### Obliczamy granicę
 
 Obliczamy teraz:
 
@@ -402,7 +401,7 @@ $$
 \lim_{x \to 0} \cos(x).
 $$
 
-Funkcja \( \cos(x) \) jest ciągła, a gdy \( x \to 0 \):
+Funkcja $ \cos(x) $ jest ciągła, a gdy $ x \to 0 $:
 
 $$
 \cos(0) = 1.
@@ -438,37 +437,22 @@ do tego celu zastosujemy **twierdzenie de L'Hospitala**.
 
 
 
-### Krok 1: Sprawdzanie formy
+### Sprawdzanie formy
 
-Gdy $$ x \to \infty $$:
+Gdy $$ x \to \infty $$
 
-- $$ \ln(x) \to \infty $$
+ $$ \ln(x) \to \infty $$
 
-- $$ x \to \infty .$$
+ $$ x \to \infty .$$
 
 
 Wyrażenie ma formę $$ \frac{\infty}{\infty} $$, dlatego możemy zastosować **twierdzenie de L'Hospitala**.
 
 
-
-### Krok 2: Stosowanie twierdzenia de L'Hospitala
-
-**Twierdzenie de L'Hospitala** mówi:
-
-Jeżeli wyrażenie ma formę \( \frac{\infty}{\infty} \) lub \( \frac{0}{0} \), to:
-
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)},
 $$
 
-gdzie \( f(x) \) i \( g(x) \) to funkcje, a \( f'(x), g'(x) \) to ich pochodne.
-
-W naszym przypadku:
-
-- $ f(x) = \ln(x) $,
-- $ g(x) = x $.
-
-Obliczamy ich pochodne:
 
 1. Pochodna licznika $ f(x) = \ln(x) $:
 
@@ -520,7 +504,7 @@ $$
 $$
 
 
-### Krok 1: Sprawdzanie formy
+### Sprawdzanie formy
 
 Gdy $ x \to \infty $:
 
@@ -529,11 +513,6 @@ Gdy $ x \to \infty $:
 
 Wyrażenie przyjmuje formę $ \frac{\infty}{\infty} $, dlatego można zastosować **regułę de L'Hospitala**.
 
-
-
-### Krok 2: Stosowanie reguły de L'Hospitala
-
-**Reguła de L'Hospitala** mówi, że jeśli wyrażenie przyjmuje formę $ \frac{\infty}{\infty} $ lub $ \frac{0}{0} $, to:
 
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)},
@@ -568,7 +547,7 @@ $$
 
 
 
-### Krok 3: Obliczamy granicę
+### Obliczamy granicę
 
 Funkcja \( \exp(x) \) (funkcja wykładnicza) rośnie w sposób ścisły dla \( x \to \infty \), co oznacza, że:
 
@@ -648,7 +627,7 @@ $$
 Pochodna względem $t $:
 
 $$
-\frac{d}{dt}[6t] = 6, \quad \frac{d}{dt}[-6] = 0.
+\frac{d}{dt}[6t] = 6
 $$
 
 Zatem:
