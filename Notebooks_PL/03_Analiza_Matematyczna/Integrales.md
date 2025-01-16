@@ -20,7 +20,7 @@ $$
 ## 2. $\int (x^2 + 2) \, dx$
 Интеграл суммы равен сумме интегралов:  / podzelić całki
 $$
-\int (f(x) + g(x)) \, dx = \int f(x) \, dx + \int g(x) \, dx
+\int f(x) + g(x) \, dx = \int f(x) \, dx + \int g(x) \, dx
 $$  
 Используем основную формулу:  / formuła
 $$
